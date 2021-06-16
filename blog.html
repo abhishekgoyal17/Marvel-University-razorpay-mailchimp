@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Marvel University</title>
+    <link rel="icon" href="images/marvels.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav class="scroll">
+            <div class="college-name">
+                <a class="college-logo" href="/"><img class="logo" src="images/marvels.png"></a>
+                <h1 class="gradient-text">MARVEL UNIVERSITY</h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+
+                <i class="far fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="menu"><a href="/">HOME</a></li>
+                    <li class="menu"><a href="about.html">ABOUT</a></li>
+                    <li class="menu"><a href="course.html">COURSE</a></li>
+                    <li class="menu"><a href="blog.html">BLOG</a></li>
+                    <li class="menu"><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1 class="headings">Our Blog</h1>
+
+    </section>
+
+
+
+    <!--blog content-->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate1.jpg">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>The certificate of Chartered Financial
+Analysts provides many lucrative
+opportunities in both private and government
+sectors across domestic as well as
+international boundaries. The aspirants are
+trained to handle the workings of the finance
+industries, providing skills that help them
+make investment decisions, making them
+experts in gathering data and analysing the
+performance of stocks. As a Portfolio
+Manager, a skilful candidate is authorized for
+making investment based decisions and
+works with analysts, researchers, and clients
+to stay mindful of the markets and business
+news.</p>
+                <br>
+               <p>A beginner CFA starts earning
+from Rs. 2.5 lakhs annually reaching up to
+Rs. 20 lakhs in India. Other job options that
+can be chosen by the aspirants are Finance
+Analyst, Associate Analyst, Finance
+Manager, Analysis Manager.Leading global recognition with greater
+exposure: This designation is one of
+the most recognised and respected
+investment credentials in the world with
+more than 60 years of legacy.</p>
+            
+           <br>
+           <p> It
+provides exposure to a variety of roles
+that are not just limited to investment
+banking and equity research, but plenty
+of other profiles as well.
+ Excelling job prospects at the top
+investment enterprises: The program
+has an in-depth focus on financial
+modelling, portfolio management, and
+other investment related areas
+providing a knowledge base that is
+highly preferred by </p>
+         <br>
+         <div class="comment-box">
+             <h3>Leave a comment</h3>
+             <form class="comment-form">
+                 <input type="text" placeholder="Enter Name">
+                 <input type="email" placeholder="Enter Email">
+                 <textarea rows="5" placeholder="Your comment"></textarea>
+                 <button type="submit" class="hero-btn red-btn post1">POST COMMENT</button>
+             </form>
+         </div>
+        </div>
+            <div class="blog-right">
+
+                <h3>Post Categories</h3>
+                <div class="category">
+                    <span>Business Analytics</span>
+                    <span>32</span>
+                   
+                </div>
+                <div class="category">
+                    <span>Data Science</span>
+                    <span>41</span>
+                   
+                </div>
+                <div class="category">
+                    <span>Machine Learning</span>
+                    <span>22</span>
+                   
+                </div>
+                <div class="category">
+                    <span>Cyber Security</span>
+                    <span>10</span>
+                   
+                </div>
+                <div class="category">
+                    <span>Pshycology</span>
+                    <span>17</span>
+                   
+                </div>
+               <div>
+                <a href="signup.html" class="hero-btn foundation newsletter">Sign-up to our Newsletter</a>  
+               </div>
+               </div>
+               
+        </div>
+    </section>
+
+
+
+    
+
+
+    
+
+  
+
+
+    <!----Footer---->
+
+    <section class="footer">
+        <p>Follow us on:</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-twitter-square"></i>
+
+        </div>
+        <p class="made">Made with <i class="fas fa-heart"></i> by Abhishek Goyal</p>
+        <p><i class="fas fa-copyright"></i> 2021. All Rights Reserved</p>
+
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        var btn1 = document.querySelector(".post1").addEventListener("click",function(){
+            alert("We have received your comment");
+        })
+            
+    
+        function showMenu() {
+
+            navLinks.style.width = "200px";
+
+        }
+
+        function hideMenu() {
+
+
+            navLinks.style.width = "0";
+
+
+        }
+       </script>
+
+</body>
+
+</html>

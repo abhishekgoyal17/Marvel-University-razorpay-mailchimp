@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Marvel University</title>
+    <link rel="icon" href="images/marvels.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav class="scroll">
+            <div class="college-name">
+                <a class="college-logo" href="/"><img class="logo" src="images/marvels.png"></a>
+                <h1 class="gradient-text">MARVEL UNIVERSITY</h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+
+                <i class="far fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="menu"><a href="/">HOME</a></li>
+                    <li class="menu"><a href="about.html">ABOUT</a></li>
+                    <li class="menu"><a href="course.html">COURSE</a></li>
+                    <li class="menu"><a href="blog.html">BLOG</a></li>
+                    <li class="menu"><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1 class="headings">About US</h1>
+
+    </section>
+
+    <!---about us content-->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1 class="we">We are the world's largest university</h1>
+                <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <a class="hero-btn red-btn" href="">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+    
+
+   
+    <!-------facilities------->
+
+    
+
+
+    <!--Call to Action-->
+
+
+
+    <!----Footer---->
+
+    <section class="footer">
+        <p>Follow us on:</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-twitter-square"></i>
+
+        </div>
+        <p class="made">Made with <i class="fas fa-heart"></i> by Abhishek Goyal</p>
+        <p><i class="fas fa-copyright"></i> 2021. All Rights Reserved</p>
+
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+
+            navLinks.style.width = "200px";
+
+        }
+
+        function hideMenu() {
+
+
+            navLinks.style.width = "0";
+
+
+        }
+       </script>
+
+</body>
+
+</html>
