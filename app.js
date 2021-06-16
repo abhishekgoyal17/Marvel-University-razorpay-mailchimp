@@ -54,7 +54,7 @@ app.post("/signup", function(req,res){
     };
 
     const jsonData =JSON.stringify(data);
-    const url = "https://us6.api.mailchimp.com/3.0/lists/d7565b1665";
+    const url = "https://us6.api.mailchimp.com/3.0/lists/api_key";
 
     const options = {
       method : "POST",
