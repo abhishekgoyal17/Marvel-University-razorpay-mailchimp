@@ -6,7 +6,8 @@ Hey guys,I made this website which is a college university website with multiple
 
 
 
-![github] (https://user-images.githubusercontent.com/54363912/122139248-2b195a80-ce66-11eb-84d3-d5596fbd938f.mp4)
+![marvel](https://user-images.githubusercontent.com/54363912/122139686-2903cb80-ce67-11eb-80aa-5f61d4dd130c.gif)
+
 
 
 ## Support
